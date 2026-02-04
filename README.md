@@ -8,7 +8,7 @@
 
 ## Overview
 
-This repository contains a comprehensive analysis of global CO2 emissions using World Bank climate data (2000-2023). The project demonstrates proficiency in data science, predictive modeling, classification, and strategic policy analysis through five interconnected research questions.
+This repository contains a comprehensive analysis of global CO2 emissions using World Bank climate data (2000-2023). The project includes five interconnected research questions.
 
 **Key Findings:**
 - Fixed Effects model achieves 96.8% R² predicting CO2 emissions
@@ -326,7 +326,7 @@ All figures are saved in `results/figures/` as high-resolution PNG files (300 DP
 
 **Question 2 (Predictive Model):**
 - Fixed Effects model selected over OLS (50% RMSE reduction)
-- Train/test split: 80/20 (2,531 train, 633 test observations)
+- Train/test split: 80/20 (2,762 train, 690 test observations)
 - VIF check confirmed no multicollinearity (all VIF < 2)
 
 **Question 4 (Classifier):**
